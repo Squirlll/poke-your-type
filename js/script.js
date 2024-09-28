@@ -38,7 +38,7 @@ function shiny(isShiny, pokemonImg, shinyImg, type) {
         let pokeNames = document.querySelectorAll(`.${type}-name`);
         pokeNames.forEach((pokeName) => {
           if (imgUrl === 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/714.png') {
-            pokeName.textContent = 'Minty';
+            pokeName.textContent = 'Noibat';
           } else if (imgUrl === 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/714.png') {
             pokeName.textContent = 'Noibat';
           }
